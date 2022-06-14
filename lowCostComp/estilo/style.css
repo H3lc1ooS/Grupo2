@@ -1,0 +1,103 @@
+*, ::before, ::after, body {
+    margin: 0;
+    padding: 0;
+    
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+}
+
+a{
+    text-decoration:none;
+    color:#ffff;
+}
+
+/*Cabeçalho*/
+
+.cabecalho nav, .cabecalho nav ul, .descricao {
+    display:flex;
+}
+
+.cabecalho {
+    background: rgb(34, 1, 17);
+    width: 100%;
+}
+
+.cabecalho nav {
+    justify-content: space-between;
+    align-items:center;
+}
+
+.marca {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.cabecalho nav ul {
+    list-style: none;
+}
+
+.cabecalho nav ul li {
+    padding:20px;
+}
+
+/*Corpo*/
+.produtos{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+.produtos .hp{
+    margin-top:10vh;
+    width: 95%;
+}
+
+.produtos .asus{    
+    width: 95%;
+}
+
+.produtos .toshiba{
+    width: 95%;
+}
+
+.computadores{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.computador{
+    width: 25%;
+    margin: 4vh 2vh;
+    padding:20px;
+    background:rgb(193, 190, 190);
+    border-radius: 10px;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.preco{
+    margin: 2vh;
+}
+
+.botao input{
+    padding:10px;
+    border-radius:20px;
+}
+
+.imagem{
+    width:250px;
+    height:190px;
+}
+
+.imagem img{
+    border-radius: 10px;
+    width:100%;
+    height:100%;
+}
+
